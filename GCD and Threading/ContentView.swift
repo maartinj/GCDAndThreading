@@ -6,6 +6,8 @@
 //  Copyright © 2020 CreaTECH Solutions. All rights reserved.
 //
 
+// Film: https://www.youtube.com/watch?v=uRLcV2Rvheg&ab_channel=StewartLynch
+
 import SwiftUI
 
 struct ContentView: View {
@@ -28,7 +30,7 @@ struct ContentView: View {
                     }
                 }
                 Button("Get Dog Image") {
-                    self.dogVM.getDog()
+                    self.dogVM.getDogWithSession()
                 }
                 Button("Change Background") {
                     self.backgroundIsGreen.toggle()
